@@ -8,4 +8,4 @@ for i in range(len(my_list)):
     if my_list[i]:
         my_first_list.append(my_list[i])
 new_list = [round(my_first_list[i] % 1, 2) for i in range(len(my_first_list))]
-print(f'{new_list} = {max(new_list) - min(new_list)}')
+print(f'{new_list} => {max(new_list) - min(new_list)}')
