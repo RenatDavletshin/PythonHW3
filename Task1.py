@@ -10,8 +10,8 @@ def create_list():
 
 def summ_odd_pos(numbers):
     summ = 0
-    for _, item in enumerate(numbers):
-        if _ % 2:
+    for i, item in enumerate(numbers):
+        if i % 2:
             summ += item
     return summ
 
